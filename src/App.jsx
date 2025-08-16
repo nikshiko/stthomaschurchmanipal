@@ -1,5 +1,5 @@
 import './App.css';
-
+import heroImage from './assets/hero-image.png';
 function App() {
   return (
     <div className="app">
@@ -25,7 +25,7 @@ function App() {
       <section id="hero" className="hero-section">
         <div className="hero-overlay">
           <img 
-            src="/src/assets/hero-image.png" 
+            src={heroImage} 
             alt="St Thomas Orthodox Church" 
             className="hero-image" 
           />
